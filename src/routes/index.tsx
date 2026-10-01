@@ -50,7 +50,7 @@ function Index() {
       try {
         const response = await fetch("/create-checkout-session", {
           method: "POST", headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ plan: purchase.dataset.plan }),
+          body: JSON.stringify({ plan: purchase.dataset["plan"] }),
         });
         const result = await response.json();
         if (!response.ok || !result.url) throw new Error(result.error || "Ocorreu um erro ao processar o pagamento. Tente novamente.");
