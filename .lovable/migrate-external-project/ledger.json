@@ -1,0 +1,13 @@
+{
+  "capabilities": [
+    {"capability":"site pages and styling","source":"index.html, success.html, cancel.html, localized aliases","outcome":"migrate","status":"in_progress","next_action":"recreate exact content and layout"},
+    {"capability":"photos and graphics","source":"assets/","outcome":"migrate","status":"in_progress","next_action":"preserve original image files"},
+    {"capability":"checkout","source":"netlify/functions/create-checkout.js","outcome":"preserve Stripe account and price ID","status":"pending","next_action":"implement checkout endpoint; obtain Stripe secret securely and verify original price for both plans"},
+    {"capability":"payment webhook","source":"netlify/functions/webhook.js","outcome":"preserve Stripe webhook behavior","status":"pending","next_action":"implement signature verification; configure webhook URL and signing secret"},
+    {"capability":"schema and records","source":"none","outcome":"not applicable","status":"verified","next_action":"none"},
+    {"capability":"auth identities and roles","source":"none","outcome":"not applicable","status":"verified","next_action":"none"},
+    {"capability":"uploaded file bytes","source":"none","outcome":"not applicable","status":"verified","next_action":"none"},
+    {"capability":"cutover","source":"Netlify redirect paths","outcome":"preserve public paths","status":"pending","next_action":"update Stripe webhook destination after publishing"},
+    {"capability":"verification","source":"site and checkout","outcome":"verify","status":"pending","next_action":"check visible pages and checkout response"}
+  ]
+}
