@@ -1408,3 +1408,35 @@
 .payment-card p { color: #6B5E57; line-height: 1.7; margin-bottom: 1.5rem; font-size: 1rem; }
 .payment-card a { display: inline-block; background: #2D5016; color: white; text-decoration: none; padding: 0.9rem 2rem; border-radius: 50px; font-weight: 700; transition: background 0.2s; }
 .payment-card a:hover { background: #4A7A28; }
+
+/* Hero em vermelho — identidade visual solicitada */
+.hero {
+  background: linear-gradient(145deg, #8f1018 0%, #bd1f2d 55%, #d9363e 100%);
+}
+.hero .eyebrow {
+  background: rgba(255,255,255,0.13);
+  border-color: rgba(255,255,255,0.28);
+  color: #fff;
+}
+.hero .eyebrow-dot { background: #ffd7a1; }
+.hero h1 { color: #fff; }
+.hero h1 em { color: #ffe0a8; }
+.hero-sub { color: rgba(255,255,255,0.92); }
+.hero .badge {
+  background: rgba(255,255,255,0.96);
+  border-color: rgba(255,255,255,0.55);
+  color: #541016;
+}
+.hero .hero-product-shell {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.25);
+}
+.hero .price-note { color: rgba(255,255,255,0.82); }
+.hero .price-note strong { color: #ffe0a8; }
+.hero .hero-social-proof .avatar {
+  border-color: #a91c28;
+  background: #ffe0a8;
+  color: #64121a;
+}
+.hero .social-proof-text { color: rgba(255,255,255,0.88); }
+.hero .social-proof-text strong { color: #fff; }
