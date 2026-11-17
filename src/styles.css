@@ -1441,16 +1441,3 @@
 .bns-total-bar { background: var(--green); color: #fff; }
 .nav-cta, .btn-primary { background: var(--green); }
 .nav-cta:hover, .btn-primary:hover { background: var(--green-light); }
-
-/* Stronger herb-green treatment for primary action buttons. */
-.btn-primary,
-.price-card:not(.featured) .btn-buy {
-  background: #3F6B2A !important;
-  color: #FFFFFF !important;
-  box-shadow: 0 5px 18px rgba(42, 91, 29, 0.32);
-}
-.btn-primary:hover,
-.price-card:not(.featured) .btn-buy:hover {
-  background: #315820 !important;
-  box-shadow: 0 8px 24px rgba(42, 91, 29, 0.4);
-}
