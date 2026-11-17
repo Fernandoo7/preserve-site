@@ -1388,15 +1388,15 @@
     box-sizing: border-box;
   }
   .top-banner span {
-    background: #8E1717;
+    background: transparent;
     color: #FFFFFF;
-    padding: 0.15rem 0.45rem;
-    border-radius: 4px;
+    padding: 0;
+    border-radius: 0;
     font-family: monospace;
     font-size: 0.95rem;
     font-weight: 900;
     margin-left: 0.25rem;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    box-shadow: none;
   }
 
 
