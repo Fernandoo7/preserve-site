@@ -1367,7 +1367,7 @@
   
 
   .top-banner {
-    background-color: #C62828;
+    background-color: #E8551A;
     color: white;
     text-align: center;
     padding: 0.55rem 1rem;
@@ -1388,15 +1388,15 @@
     box-sizing: border-box;
   }
   .top-banner span {
-    background: transparent;
-    color: #FFFFFF;
-    padding: 0;
-    border-radius: 0;
+    background: white;
+    color: #E8551A;
+    padding: 0.15rem 0.45rem;
+    border-radius: 4px;
     font-family: monospace;
     font-size: 0.95rem;
     font-weight: 900;
     margin-left: 0.25rem;
-    box-shadow: none;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
   }
 
 
@@ -1409,35 +1409,6 @@
 .payment-card a { display: inline-block; background: #2D5016; color: white; text-decoration: none; padding: 0.9rem 2rem; border-radius: 50px; font-weight: 700; transition: background 0.2s; }
 .payment-card a:hover { background: #4A7A28; }
 
-
-/* Updated palette inspired by the 500-Rezepte cover: warm neutrals, graphite and herb green. */
-:root {
-  --cream: #F6F3EB;
-  --cream-dark: #EAE6DC;
-  --espresso: #292B27;
-  --espresso-mid: #45483F;
-  --green: #66734D;
-  --green-light: #84916A;
-  --green-muted: #E6EBDD;
-  --accent-gold: #B99A69;
-  --accent-gold-light: #D8C39B;
-  --text-dark: #292B27;
-  --text-mid: #5C5E54;
-  --text-light: #898A7F;
-  --white: #FFFEFA;
-  --shadow-soft: 0 4px 24px rgba(41,43,39,0.08);
-  --shadow-deep: 0 16px 60px rgba(41,43,39,0.14);
-}
-
-/* Countdown bar stays red across the full width; timer text remains white. */
+/* Requested countdown treatment: full red strip with white text. */
 .top-banner { background-color: #C62828 !important; color: #FFFFFF !important; }
-.top-banner span { background: transparent !important; color: #FFFFFF !important; }
-.bns-section { background: #F2EFE6; }
-.bns-pill, .bns-badge { background: var(--green); }
-.bns-title, .bns-name, .bns-total-bar { color: var(--espresso); }
-.bns-title-orange { color: var(--green); }
-.bns-desc { color: var(--text-mid); }
-.bns-gratis { background: var(--green-muted); color: var(--green); }
-.bns-total-bar { background: var(--green); color: #fff; }
-.nav-cta, .btn-primary { background: var(--green); }
-.nav-cta:hover, .btn-primary:hover { background: var(--green-light); }
+.top-banner span { background: transparent !important; color: #FFFFFF !important; padding: 0 !important; border-radius: 0 !important; box-shadow: none !important; }
