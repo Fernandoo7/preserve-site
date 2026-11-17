@@ -1367,7 +1367,7 @@
   
 
   .top-banner {
-    background-color: #E8551A;
+    background-color: #C62828;
     color: white;
     text-align: center;
     padding: 0.55rem 1rem;
@@ -1388,8 +1388,8 @@
     box-sizing: border-box;
   }
   .top-banner span {
-    background: white;
-    color: #E8551A;
+    background: #8E1717;
+    color: #FFFFFF;
     padding: 0.15rem 0.45rem;
     border-radius: 4px;
     font-family: monospace;
